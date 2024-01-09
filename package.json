@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "./dist/src/main.js",
   "keywords": [],
   "author": "kollegian",
   "license": "ISC",
@@ -16,5 +17,9 @@
   },
   "devDependencies": {
     "soft-assert": "^0.2.7"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/kollegian/cosmwasmTooling.git"
   }
 }
