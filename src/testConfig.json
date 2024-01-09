@@ -1,0 +1,29 @@
+{
+  "mnemonic": "apart ahead month tennis merge canvas possible cannon lady reward traffic city hamster monitor lesson nasty midnight sniff enough spatial rare multiply keep task",
+  "chainInfos": {
+    "centauri": {
+      "chainName": "centauri",
+      "chainPrefix": "centauri",
+      "rpcEndpoint": "http://127.0.0.1:26657",
+      "baseToken": "ppica",
+      "channels": {
+        "osmosis": {
+          "channelId": 1,
+          "token": "ibc/3262D378E1636BE287EC355990D229DCEB828F0C60ED5049729575E235C60E8B"
+        }
+      }
+    },
+    "osmosis": {
+      "chainName": "osmosis",
+      "chainPrefix": "osmo",
+      "rpcEndpoint": "http://127.0.0.1:38093",
+      "baseToken": "uosmo",
+      "channels": {
+        "centauri": {
+          "channelId": 0,
+          "token": "ibc/3262D378E1636BE287EC355990D229DCEB828F0C60ED5049729575E235C60E8B"
+        }
+      }
+    }
+  }
+}
